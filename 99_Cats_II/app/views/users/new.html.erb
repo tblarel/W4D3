@@ -1,0 +1,6 @@
+<form action="<%=users_url%>" method = "post">
+    <input type="hidden" name="autheticity_token" value="<%= form_authenticity_token %>%">
+
+
+    <%= render './sessions/login_form', type: "Sign up"  %> 
+</form>
